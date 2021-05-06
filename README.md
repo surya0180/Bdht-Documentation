@@ -75,7 +75,9 @@ Hence the **installation** and setup of the project is **done completely**.
 * Then after entering your mail, a ```password reset``` **link** will be sent to your **mail** Click on that link.
 * After clicking on that link, Set your ```new password``` and click reset button.
 * There you go. You have sucessfully **resetted your password**.
-* Here is a small demonstration of the process.\
+* Here is a small demonstration of the process.
+
+
 ![](/images/gif3.gif)
 ## Registeration
 ### A person can register in our website as follows
@@ -106,6 +108,8 @@ Hence the **installation** and setup of the project is **done completely**.
 * Then he must mention the ```date of the appointment```
 * And then mention the ```message``` required to convey his/her problem to the doctor
 * Once the appointment is done, An email is sent to **both the respective doctor and the user** just for the confirmation.
-* And then, the doctor will take up the converstaion with the user. This is the complete process of the appointment.\
+* And then, the doctor will take up the converstaion with the user. This is the complete process of the appointment.
+
+
 ![](/images/gif2.gif)
 ## Contributers
