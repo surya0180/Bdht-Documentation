@@ -70,6 +70,14 @@ Hence the **installation** and setup of the project is **done completely**.
 
 ## Authentication
 ## Registeration
+### A person can register in our website as follows
+* If the person is a user or a patient, he can register using ```User Registeration``` form
+* If the person is a doctor, he can register using ```Doctor Registertion``` form
+* If the person has a hospital, he can register using ``` Hospital Registeration ```form
+### Navigating to Signup page
+https://user-images.githubusercontent.com/56592197/117277051-1ddb7a00-ae7d-11eb-82aa-9aaebacf26f4.mp4
+
+
 ## Search-for-Doctors
 ## Search-for-Hospitals
 ## How-to-view-Profiles
