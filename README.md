@@ -69,6 +69,14 @@ python manage.py runserver
 Hence the **installation** and setup of the project is **done completely**.
 
 ## Authentication
+### What happens when a person forgets their ```password```. Here is the process for it.
+![](/images/cap4.JPG)
+* In the above screenshot we can see a ```forgot password?``` section. Clicking on that will redirect you to a page where we will ask your ```email``` which is linked with your **account**.
+* Then after entering your mail, a ```password reset``` **link** will be sent to your **mail** Click on that link.
+* After clicking on that link, Set your ```new password``` and click reset button.
+* There you go. You have sucessfully **resetted your password**.
+* Here is a small demonstration of the process.\
+![](/images/gif3.gif)
 ## Registeration
 ### A person can register in our website as follows
 * If the person is a user or a patient, he can register using ```User Registeration``` form
