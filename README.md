@@ -75,7 +75,6 @@ Hence the **installation** and setup of the project is **done completely**.
 * If the person is a doctor, he can register using ```Doctor Registertion``` form
 * If the person has a hospital, he can register using ``` Hospital Registeration ```form
 ### Navigating to Signup page
-https://user-images.githubusercontent.com/56592197/117277051-1ddb7a00-ae7d-11eb-82aa-9aaebacf26f4.mp4
 
 
 ## Search-for-Doctors
