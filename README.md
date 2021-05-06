@@ -13,6 +13,13 @@
 
 # Documentation
 * [Project-Installation](#Project-Installation)
+* [Authentication](#Authentication)
+* [Registeration](#Registeration)
+* [Search-for-Doctors](#Search-for-Doctors)
+* [Search-for-Hospitals](#Search-for-Hospitals)
+* [How-to-view-Profiles](#How-to-view-Profiles)
+* [How-to-update-Profiles](#How-to-update-Profiles)
+* [How-to-add-reviews/ratings](#How-to-add-reviews/ratings)
+* [Make-Appointment](#Make-Appointment)
 
 # Project-Installation
-![](/images/image1.JPG)
