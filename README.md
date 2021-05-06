@@ -40,9 +40,10 @@ Clone this repository **[link](https://github.com/WAD-Team-Alpha/Hospital_Review
 git clone https://github.com/WAD-Team-Alpha/Hospital_Review_System.git
 ```
 #### Step-2 
-Navigate to public folder and create a python file with name **email.py**.
+Navigate to public folder and create a python file with name **email.py**.\
+![](/images/Capture.JPG)
 #### Step-3 
-Inside the **email.py** file create the list of variables mentioned below.
+Inside the **email.py** file create the list of variables mentioned below and assign them accordingly.
 * ```EMAIL_HOST_USER```     This variable is used to store the **email** of the website
 * ```EMAIL_HOST_PASSWORD``` This variable is used to store the **password** for the email of the website
 * ```EMAIL_HOST```          This variable is used to mention the type of host **In our case we use smtp.gmail.com**
