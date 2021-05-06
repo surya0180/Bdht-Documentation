@@ -12,4 +12,4 @@
 * Every section of our website will be explained in the following [Documentation](#documentation).
 
 # Documentation
-* [ProjectInstallation](#ProjectInstallation)
+* [Project-Installation](#Project-Installation)
