@@ -92,11 +92,12 @@ Hence the **installation** and setup of the project is **done completely**.
 ## How-to-update-Profiles
 ## How-to-add-reviews/ratings
 ## Make-Appointment
+![](/images/cap3.JPG)
 ### Only a patient can have an appointment with a doctor
 * Patient first needs to give the username of the doctor by viewing the ```username``` from the respective ```Doctor profile```
 * Then he must mention the ```date of the appointment```
 * And then mention the ```message``` required to convey his/her problem to the doctor
 * Once the appointment is done, An email is sent to **both the respective doctor and the user** just for the confirmation.
 * And then, the doctor will take up the converstaion with the user. This is the complete process of the appointment.
-* Here are some screen shots of the process
+![](/images/gif2.gif)
 ## Contributers
