@@ -75,7 +75,16 @@ Hence the **installation** and setup of the project is **done completely**.
 * If the person is a doctor, he can register using ```Doctor Registertion``` form
 * If the person has a hospital, he can register using ``` Hospital Registeration ```form
 ### Navigating to Signup page
+* The page looks something **like this**
+
+
+![](/images/cap2.JPG)
+* Below is a small **Illustration** of how to navigate to signup page
+
+
 ![](/images/gif1.gif)
+
+* You can register in any three of them depending on your ```profession```
 
 ## Search-for-Doctors
 ## Search-for-Hospitals
