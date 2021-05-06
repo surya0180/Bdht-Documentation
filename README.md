@@ -21,6 +21,7 @@
 * [How-to-update-Profiles](#How-to-update-Profiles)
 * [How-to-add-reviews/ratings](#How-to-add-reviews/ratings)
 * [Make-Appointment](#Make-Appointment)
+* [Contributers](#Contributers)
 
 # Project-Installation
 # Authentication
