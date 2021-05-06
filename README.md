@@ -1,13 +1,13 @@
 # Best Doctors & Hospitals Tracker
 ![](/images/image1.JPG)
-* Best doctors and hospitals tracker is the name of the project we have built and the name of the website is **JEEVAN NAKSHA**.
+* Best doctors and hospitals tracker is the name of the project we have built and the name of the website is ```JEEVAN NAKSHA```.
 * In our website you can register in three ways :-
    1. You can register as an User if you are a normal user/patient.
    2. You can register as a Doctor if you are a Doctor.
    3. You can register as a Hospital if you are a Hospital.
 * In recent days, online mode is very common in every industry and many people or customers are willing to use the online mode to complete their work.
 * It's been a hard time for some users who are searching for some best doctors or hospitals nearby them, so that they can save their effort of searching via offline mode.
-* Our Website **JEEVAN NAKSHA** will provide the users this facility to search for the doctors or hospitals near by them.
+* Our Website ```JEEVAN NAKSHA``` will provide the users this facility to search for the doctors or hospitals near by them.
 * User can even have an **appointment** with a particular doctor they like from our website.
 * Every section of our website will be explained in the following [Documentation](#documentation).
 
@@ -75,7 +75,16 @@ Hence the **installation** and setup of the project is **done completely**.
 * If the person is a doctor, he can register using ```Doctor Registertion``` form
 * If the person has a hospital, he can register using ``` Hospital Registeration ```form
 ### Navigating to Signup page
+* The page looks something **like this**
+
+
+![](/images/cap2.JPG)
+* Below is a small **Illustration** of how to navigate to signup page
+
+
 ![](/images/gif1.gif)
+
+* You can register in any three of them depending on your ```profession```
 
 ## Search-for-Doctors
 ## Search-for-Hospitals
