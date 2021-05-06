@@ -98,6 +98,6 @@ Hence the **installation** and setup of the project is **done completely**.
 * Then he must mention the ```date of the appointment```
 * And then mention the ```message``` required to convey his/her problem to the doctor
 * Once the appointment is done, An email is sent to **both the respective doctor and the user** just for the confirmation.
-* And then, the doctor will take up the converstaion with the user. This is the complete process of the appointment.
+* And then, the doctor will take up the converstaion with the user. This is the complete process of the appointment.\
 ![](/images/gif2.gif)
 ## Contributers
