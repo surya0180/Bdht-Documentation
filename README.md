@@ -1,5 +1,5 @@
 # Best Doctors & Hospitals Tracker 
-![Tux, the Linux mascot](/images/image1.jpeg)
+![](/images/image1.jpeg)
 * Best doctors and hospitals tracker is the name of the project we have built and the name of the website is **JEEVAN NAKSHA**
 * In our website you can register in three ways :-
    1. You can register as an User if you are a normal user/patient
