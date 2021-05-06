@@ -55,17 +55,17 @@ python manage.py sqlmigrate (App_name) (migration_number)
 ```
 Here ```App_name``` is the name of the app which has the migration with migration number ``` migration_number ```
 **Note:** that you should use the above command only if you are using the sql based database as your backend otherthan **sqlLite3** which is *default* one.
+After you should migrate all the migrations using the following **command**.
+```
+python manage.py migrate
+```
 #### Step-5
 After applying all the migrations, now its time to run the website. Make sure that you have your environment ready with all the mentioned softwares installed. In your command prompt/terminal run this command to start the **django server**.
 ```
 python manage.py runserver
 ```
-A folder named **media** will be created. If not you can create a empty folder manually and name it ```media```.
-#### Step-6
-After the folder ```media``` is created, move the folder named ``` DefaultPhotos ``` inside the ```media``` folder .
 
-#### Step-7
-Repeat this ```Step-5```, You are all ready to go now. The project is now **installed completely**.
+Hence the **installation** and setup of the project is **done completely**.
 
 ## Authentication
 ## Registeration
