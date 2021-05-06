@@ -23,7 +23,56 @@
 * [Make-Appointment](#Make-Appointment)
 * [Contributers](#Contributers)
 
-# Project-Installation
-# Authentication
-# Registeration
-# Make-Appointment
+## Project-Installation
+### Project Environment
+#### Following are the list of softwares required for the environment.
+* Python 3 or more
+* Django 3 or more
+* pycopg package from python
+* pillow package from python
+* HTML5, CSS, Node.js Support
+* Version control (Git, Github)
+* Postgre sql server and PgAdmin
+### Installation
+#### Step-1 
+Clone this repository **[link](https://github.com/WAD-Team-Alpha/Hospital_Review_System.git)** using this command in your terminal/command prompt.
+```
+git clone https://github.com/WAD-Team-Alpha/Hospital_Review_System.git
+```
+#### Step-2 
+Navigate to public folder and create a python file with name **email.py**.
+#### Step-3 
+Inside the **email.py** file create the list of variables mentioned below.
+* ```EMAIL_HOST_USER```     This variable is used to store the **email** of the website
+* ```EMAIL_HOST_PASSWORD``` This variable is used to store the **password** for the email of the website
+* ```EMAIL_HOST```          This variable is used to mention the type of host **In our case we use smtp.gmail.com**
+* ```DEFAULT_FROM_EMAIL```  This variable stores the **default email** used by the website
+* ```DB_PASSWORD```         This is the password of the database used in the **settings.py** file in public folder
+#### Step-4
+Before you run the project, make sure that you apply all the migrations to your database. If you are using postgre sql use the following **command**
+```
+python manage.py sqlmigrate (App_name) (migration_number)
+```
+Here ```App_name``` is the name of the app which has the migration with migration number ``` migration_number ```
+**Note:** that you should use the above command only if you are using the sql based database as your backend otherthan **sqlLite3** which is *default* one.
+#### Step-5
+After applying all the migrations, now its time to run the website. Make sure that you have your environment ready with all the mentioned softwares installed. In your command prompt/terminal run this command to start the **django server**.
+```
+python manage.py runserver
+```
+A folder named **media** will be created. If not you can create a empty folder manually and name it ```media```.
+#### Step-6
+After the folder ```media``` is created, move the folder named ``` DefaultPhotos ``` inside the ```media``` folder .
+
+#### Step-7
+Repeat this ```Step-5```, You are all ready to go now. The project is now **installed completely**.
+
+## Authentication
+## Registeration
+## Search-for-Doctors
+## Search-for-Hospitals
+## How-to-view-Profiles
+## How-to-update-Profiles
+## How-to-add-reviews/ratings
+## Make-Appointment
+## Contributers
