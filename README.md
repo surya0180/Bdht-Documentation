@@ -23,3 +23,6 @@
 * [Make-Appointment](#Make-Appointment)
 
 # Project-Installation
+# Authentication
+# Registeration
+# Make-Appointment
