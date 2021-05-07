@@ -113,3 +113,12 @@ Hence the **installation** and setup of the project is **done completely**.
 
 ![](/images/gif2.gif)
 ## Contributers
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/surya0180"><img src="https://avatars1.githubusercontent.com/surya0180" width="100px;" alt=""/></a><br /><sub><b>Surya Teja</b></sub></td>
+    <td align="center"><a href="https://github.com/bannu0snake"><img src="https://avatars1.githubusercontent.com/bannu0snake" width="100px;" alt=""/></a><br /><sub><b>Mahaboob</b></sub></td>
+    <td align="center"><a href="https://github.com/prathyush11"><img src="https://avatars1.githubusercontent.com/prathyush11" width="100px;" alt=""/></a><br /><sub><b>Prathyush</b></sub></td>
+    <td align="center"><a href="https://github.com/sekharsa"><img src="https://avatars1.githubusercontent.com/sekharsa" width="100px;" alt=""/></a><br /><sub><b>Sekhar</b></sub></td>
+    <td align="center"><a href="https://github.com/satyamsingh-sg"><img src="https://avatars1.githubusercontent.com/satyamsingh-sg" width="100px;" alt=""/></a><br /><sub><b>Satyam Kumar</b></sub></td>
+  </tr>
+</table>
