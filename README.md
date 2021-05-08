@@ -86,6 +86,9 @@ Hence the **installation** and setup of the project is **done completely**.
 * For user to get signed out you need to press `signout` button in home page.
 * Where as for doctors and hospitals you need to navigate to their profile page and then press on **signout** button to get signed out.
 
+
+![](/images/gif_signout.gif)
+
 ***
 
 ### What happens when a person forgets their ```password```. Here is the process for it.
