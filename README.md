@@ -69,6 +69,25 @@ python manage.py runserver
 Hence the **installation** and setup of the project is **done completely**.
 
 ## Authentication
+
+### How can a person signin. Follow these steps to signin:
+
+![signin-image-alt](/images/Signin.png)
+* Press ```signin``` button to get signed in.
+* Enter valid user credentials of your account and press ```sign in```.If you do not have an account, the create one by pressing on create one link. If you entered wrong credentials then you be redirected to ```signin fail page```.
+* On successfull login you will get back to index page . here the header is different for different kinds of user like ```public```, ```doctors``` and ```hospitals```. For doctors and hospitals they will get view profile button inplace of logout button.
+* if user is an doctor or hospital manager then they get an ```view profile``` button.
+
+![](/images/gif_signin.gif)
+
+***
+
+###  Steps to get signed out
+* For user to get signed out you need to press `signout` button in home page.
+* Where as for doctors and hospitals you need to navigate to their profile page and then press on **signout** button to get signed out.
+
+***
+
 ### What happens when a person forgets their ```password```. Here is the process for it.
 ![](/images/cap4.JPG)
 * In the above screenshot we can see a ```forgot password?``` section. Clicking on that will redirect you to a page where we will ask your ```email``` which is linked with your **account**.
@@ -95,6 +114,8 @@ Hence the **installation** and setup of the project is **done completely**.
 ![](/images/gif1.gif)
 
 * You can register in any three of them depending on your ```profession```
+
+***
 
 ### How to register in the website as a user
 Below are the steps for registering as a ```User```:
@@ -126,6 +147,8 @@ Below are the steps for registering as a ```User```:
 * If any user registered with the ```same username``` before you register, it shows **UserName Already Exists**. So, Try with a different username.
 * If any user registered with the ```same email``` before you register or if you're registering 2nd time with the same email, it shows **Email already Exists** error. So, make sure you enter your email correctly.
 
+***
+
 ### How to register in the website as a Doctor
 
 Below are the steps for registering as a ```Doctor```:
@@ -152,7 +175,7 @@ Below are the steps for registering as a ```Doctor```:
 
 #### Now you're succesfully registered as a Doctor.
 
-### Below are the some of errors you can encounter when you register
+#### Below are the some of errors you can encounter when you register
 * If Password and Confirm Password are not same it will show ```Passwords dont match``` error. So make sure you enter the both passwords correctly.
 * If any user registered with the same username before you register, it shows ```UserName Already Exists```. So, Try with a different username.
 * If any user registered with the same email before you register or if you're registering 2nd time with the same email, it shows ```Email already Exists``` error. So, make sure you enter your email correctly.
