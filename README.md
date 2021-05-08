@@ -15,11 +15,11 @@
 * [Project-Installation](#Project-Installation)
 * [Authentication](#Authentication)
 * [Registeration](#Registeration)
-* [Search-for-Doctors](#Search-for-Doctors)
-* [Search-for-Hospitals](#Search-for-Hospitals)
-* [How-to-view-Profiles](#How-to-view-Profiles)
-* [How-to-update-Profiles](#How-to-update-Profiles)
-* [How-to-add-reviews/ratings](#How-to-add-reviews/ratings)
+* [Search-Doctors](#Search-Doctors)
+* [Search-Hospitals](#Search-Hospitals)
+* [View-Profiles](#View-Profiles)
+* [Update-Profiles](#Update-Profiles)
+* [Reviews/Ratings](#Reviews/Ratings)
 * [Make-Appointment](#Make-Appointment)
 * [Contributers](#Contributers)
 
@@ -185,7 +185,7 @@ Below are the steps for registering as a ```Doctor```:
 
 
 
-## Search-for-Doctors
+## Search-Doctors
 
 ### You can Search by the following details of the ```doctors```:
   - ```First Name``` of the doctor
@@ -213,7 +213,7 @@ Below are the steps for registering as a ```Doctor```:
 
 #### **You can also view the Doctor Profile by clicking View Profile Button**.
 
-## Search-for-Hospitals
+## Search-Hospitals
 
 ![Hospital search bar](images/Screenshot2.png)
 
@@ -242,9 +242,23 @@ In this page you can see the ```cards``` of the hospitals based on filters appli
 
 ### You can also view the hospital prifile by clicking 'view profile' button
 
-## How-to-view-Profiles
-## How-to-update-Profiles
-## How-to-add-reviews/ratings
+## View-Profiles
+
+## Update-Profiles
+
+## Reviews/Ratings
+
+### How to view reviews and ratings
+
+* For viewing reviews and Ratings you need to scroll down in the profile page for a perticular doctor/hospital. Press ```load more``` button to load more reviews.
+* You can also see ```ratings summary``` in the same page.Here you can see the details like number of reviews added and average rating and also you can observe count of each rating added.
+
+### How to add ratings an reviews
+
+* In profile pages, you can add reviews and ratings in allotted slot, but you must get **logged in before hand**. otherwise page will shown like this.
+* Another important thing is you must **signed with an user account** to add an review. After successful signin you can add review.
+* After sucessfully adding review you can see your review in the reviews section (updates instantly).
+
 ## Make-Appointment
 ![](/images/cap3.JPG)
 ### Only a patient can have an appointment with a doctor
