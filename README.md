@@ -183,6 +183,33 @@ Below are the steps for registering as a ```Doctor```:
 * If any user registered with the same username before you register, it shows ```UserName Already Exists```. So, Try with a different username.
 * If any user registered with the same email before you register or if you're registering 2nd time with the same email, it shows ```Email already Exists``` error. So, make sure you enter your email correctly.
 
+***
+
+### How to register in the website as a Hospital 
+#### It is hospital registeration form ,hospital will register here
+* From Main page, go to SignIn page.
+* For Registering as a new Hospitals click SignUp button situated below forgot password option.
+* In signup page, click Signup as a Hospitals.
+* After clicking SignUp as a hospital, you will get a Registration form as shown below.
+
+
+
+![](images/img4.png)
+* In hospital Registration Form, Fill all the details asked in the form and make sure the requirements are fulfilled like in Password it should contain a Capital letter, a small letter and some special characters and a minimum length of 8 charecters.
+* After filling all details required in the form click on Register Button.
+
+* After registering successfully, you will redirect to the main page with a message showing Activate your account after clicking the link sent to your mail.
+
+
+
+### It is demo how to register here 
+
+
+
+![](images/reg.gif)
+ * After registering successfully, you will redirect to the main page with a message showing Activate your account after clicking the link sent to your mail.
+ * Click on that link, now you are succesfully registered as a Doctor and you will be redirected to the main page with the message Account Activated Succesfully.
+
 
 
 ## Search-Doctors
@@ -244,7 +271,53 @@ In this page you can see the ```cards``` of the hospitals based on filters appli
 
 ## View-Profiles
 
+### Doctors-Profile
+#### It is doctor profile , doctor can view profile and other how register in website they can view doctor profile using search bar 
+ * From Main page, go to view profile.
+ * See all doctor detail  
+
+![](images/img3.png)
+
+ * Doctor name ,hospital to belong
+ * Specicalistion , Exprience 
+ * Time of meet the patient  
+
+#### It is doctor profile demo 
+ * According to rating and review we can judge the service
+
+![](/doc1.gif)
+
+
+### Hospitals-Profile
+#### It is Hospitals profile , Hospitals can view profile and other how register in website they can view Hospitals profile using search bar
+ * From Main page, go to view profile.
+ * See all Hospital detail  
+
+ 
+![](images/img2.png)
+  * Hospital name , Facilty in hospital
+  * Doctor team, chief of doctor 
+  * Update profile like hospital name, doctor team
+
+#### It is Hospitals profile demo
+
+
+![](images/host1.gif)
+ * According to rating and review we can judge the service
+
 ## Update-Profiles
+
+### hospital and Doctor can update their profile
+ * From profile page, go to update button.
+ * Check use is doctor then update his profile and if it is user they can not update
+ * Check use is Hospital then update his profile and if it is user they can not update
+![](images/img5.png)
+* update Doctor and Hospital name
+* update Profile photo
+* update Specicalistion , Exprience
+### It is  update  Demo
+![](images/update.gif)
+* After update profile redirect in profile and get massage to update profile 
 
 ## Reviews/Ratings
 
