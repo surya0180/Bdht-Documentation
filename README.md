@@ -251,13 +251,32 @@ In this page you can see the ```cards``` of the hospitals based on filters appli
 ### How to view reviews and ratings
 
 * For viewing reviews and Ratings you need to scroll down in the profile page for a perticular doctor/hospital. Press ```load more``` button to load more reviews.
+
+
+![myimage-alt-tag](/images/reviews.png)
+
 * You can also see ```ratings summary``` in the same page.Here you can see the details like number of reviews added and average rating and also you can observe count of each rating added.
+
+
+![myimage-alt-tag](/images/view_rating.png)
 
 ### How to add ratings an reviews
 
+
+![myimage-alt-tag](/images/gif2.gif)
+
 * In profile pages, you can add reviews and ratings in allotted slot, but you must get **logged in before hand**. otherwise page will shown like this.
+
+
+![myimage-alt-tag](/images/review_signin.png)
 * Another important thing is you must **signed with an user account** to add an review. After successful signin you can add review.
+
+
+![myimage-alt-tag](/images/adding_review.png)
 * After sucessfully adding review you can see your review in the reviews section (updates instantly).
+
+
+![myimage-alt-tag](/images/added_review.png)
 
 ## Make-Appointment
 ![](/images/cap3.JPG)
