@@ -515,6 +515,20 @@ dict = []
  * Specicalistion , Exprience 
  * Time of meet the patient  
 
+#### Coming to the code of implementation
+* Implemeting this feature is not a lengthy one, but it has just a fetching process from the database and rendering it in the profile page.
+* Below is a small snippet of that code.
+``` python
+def docProf(request, doctor_id):
+    '''
+    this function will helps the doctor profile html page to access all the dynamic data 
+    from the database. we get doctor_id from html page
+    '''
+    #checking whether doctor  exists or not
+    doctor =get_object_or_404(Doctor, pk= doctor_id)
+    queryset_list = DocReview.objects.order_by('-review_date').filter(doctor = doctor)
+```
+
 #### It is doctor profile demo 
  * According to rating and review we can judge the service
 
@@ -532,6 +546,25 @@ dict = []
   * Doctor team, chief of doctor 
   * Update profile like hospital name, doctor team
 
+#### Coming to the code of implementation
+* Implemeting this feature is not a lengthy one, but it has just a fetching process from the database and rendering it in the profile page.
+* Below is a small snippet of that code.
+
+``` python
+def hosProf(request, hospital_id):
+    '''
+    this function will helps the hospital profile html page to access all the dynamic data 
+    from the database. we get hospital_id from html page
+    '''
+
+    #checking whether doctor  exists or not
+    hospital =get_object_or_404(Hospital, pk= hospital_id)
+    # doctor search list which belong to this hospital 
+    doctor_list = Doctor.objects.all().filter(HospitalRegisterationNumber=hospital.HospitalRegisterationNumber)
+    # print(doctor_list)
+    queryset_list = HosReview.objects.order_by('-review_date').filter(hospital = hospital)
+```
+
 #### It is Hospitals profile demo
 
 
@@ -548,6 +581,64 @@ dict = []
 * update Doctor and Hospital name
 * update Profile photo
 * update Specicalistion , Exprience
+
+#### Talking about the code of implementation
+* First we just need to collect all the data required to update the profile and just need to update the changes in the database
+* Below is the snippet to collect the data
+``` python
+def updateProf(request):
+    if request.method == "POST":
+        flag = 0
+        data = request.POST
+        files = request.FILES.get('profilePhoto')
+        fs = FileSystemStorage()
+
+        try:
+            fs.save("DoctorPhotos/"+files.name, files)
+            Path = "DoctorPhotos/"+str(files.name)
+        except AttributeError:
+            flag = 1
+
+        doctor = Doctor.objects.all().filter(Username=request.user.username).get()
+```
+* Then we just needed to check the details which have changed and which have not changed according to the database.
+* To do this, we just implement a ```if else``` for all the data.
+* Below is the sample code for this, please note that fname is ```firstname```.
+``` python
+if data['fname'] == "":
+            fname = doctor.FirstName
+        else:
+            fname = data['fname']
+```
+* In the same way we will be updating all the details and store them in their respective variables
+* All the variables are then used to update the profile as shown below.
+``` python
+doctorUpdated = Doctor.objects.all().filter(Username=request.user.username).update(
+   FirstName = fname,
+   LastName = lname,
+   ProfilePhoto = profilePhoto,
+   MobileNumber = mobilenum,
+   YearsOfExperience = yoe ,          
+   HospitalName = hospname,
+   HospitalRegisterationNumber = hospRegNum,
+   City = city,
+   State = state,
+   Pincode = pincode,
+   Department = dept,
+   Description = desc,
+   Achievements1 = ach1,
+   Achievements2 = ach2,
+   Achievements3 = ach3,
+   Achievements4 = ach4
+)
+```
+* Note that the code show above is for the doctor update profile, it is similar for hospital profile also.
+* After then we just need to save the information and redirect him to his updated profile page as shown in below code snippet.
+``` python
+doctor_id = str(doctor.id)
+messages.success(request, "Updated profile sucessfully")
+return redirect('/doctors/'+doctor_id)
+```
 ### It is  update  Demo
 ![](images/update.gif)
 * After update profile redirect in profile and get massage to update profile 
