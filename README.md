@@ -668,6 +668,44 @@ return redirect('/doctors/'+doctor_id)
 ![myimage-alt-tag](/images/review_signin.png)
 * Another important thing is you must **signed with an user account** to add an review. After successful signin you can add review.
 
+### Talking about the code of implementation
+* All the stars are accessed from the backend and stored in such a way that we can keep track of each start as shown below.
+``` python
+doctor = Doctor.objects.all().filter(Username=doctor_name).get()
+# adding review to database
+reviewed = DocReview(doctor=doctor, user=user, star_rating=star_rating,non_rating=non_rating, review=review)
+reviewed.save()
+# filtering all the reviews of the target doctor
+queryset_list = DocReview.objects.order_by('-review_date').filter(doctor = doctor)
+```
+
+* After that we just needed to save them to the database 
+* When we wanted to render them into the profile page, the following process is implemented
+
+```python
+five_stars = 0
+    for review  in queryset_list:
+        if review.star_rating == "12345":
+            five_stars = five_stars + 1
+    four_stars = 0
+    for review  in queryset_list:
+        if review.star_rating == "1234":
+            four_stars = four_stars + 1
+    three_stars = 0
+    for review  in queryset_list:
+        if review.star_rating == "123":
+            three_stars = three_stars + 1
+    two_stars = 0
+    for review  in queryset_list:
+        if review.star_rating == "12":
+            two_stars = two_stars + 1
+    one_stars = 0
+    for review  in queryset_list:
+        if review.star_rating == "1":
+            one_stars = one_stars + 1
+```
+* The process is big huge due to which all the code cant fit in the documentation, You can visit the file and inspect there as well.
+
 
 ![myimage-alt-tag](/images/adding_review.png)
 * After sucessfully adding review you can see your review in the reviews section (updates instantly).
@@ -686,6 +724,43 @@ return redirect('/doctors/'+doctor_id)
 
 
 ![](/images/gif2.gif)
+
+#### Lets now talk about the code of implementation
+* After collecting all the required details, the email will be sent to the doctor and the user.
+* Below is the implementatio of the process.
+``` python
+def MakeAnAppointment(request):
+    # Accessing all the required info for validation
+    if request.method == "POST":
+        DoctorUsername = request.POST["dname"] # accessing the doctors username
+        DateOfAppointment = request.POST["date"] # accessing the date of appointment
+        additionalMessage = request.POST["message"] # Some additional message is accessed here
+
+        # Checking whether the user is signed in or not
+        if not request.user.is_authenticated:
+            messages.error(request, "Please Signin")
+            return redirect('index')        
+
+        # retrieving the user and doctor
+        user = User.objects.all().filter(Username=request.user.username).get()
+        doctor = Doctor.objects.all().filter(Username=DoctorUsername).get()
+```
+* We need to save the appointment in the database respectively and proceed to send the mail
+``` python
+appointment = Appointment(user=user, doctor=doctor, dateOfAppointment=DateOfAppointment, AdditionalMessage=additionalMessage)
+appointment.save()
+```
+* After that we need to send the mail to both the doctor and the user as well
+``` python
+userEmail = send_mail (
+       userSubject,
+       userBody,
+       "jeevannakshawad@gmail.com",
+       [userEmail],
+       fail_silently=False
+)
+```
+* With this the appointment is sent sucessfully
 ## Contributers
 <table>
   <tr>
