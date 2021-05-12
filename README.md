@@ -13,6 +13,7 @@
 
 # Documentation
 * [Project-Installation](#Project-Installation)
+* [Project-Database](#Project-Database)
 * [Authentication](#Authentication)
 * [Registeration](#Registeration)
 * [Search-Doctors](#Search-Doctors)
@@ -67,7 +68,13 @@ python manage.py runserver
 ```
 
 Hence the **installation** and setup of the project is **done completely**.
+## Project-Database
+### Our project has the ```database``` configuration of this type:
 
+* A table for each User/Doctor/Hospital
+* A table to store all the appointments of each user/patient
+* A table to store the doctor reviews
+* A table to store the hospital reviews
 ## Authentication
 
 ### How can a person signin. Follow these steps to signin:
